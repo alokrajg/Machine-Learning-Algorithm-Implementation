@@ -54,7 +54,3 @@ tfidfA = computeTFIDF(tfA, idfs)
 tfidfB = computeTFIDF(tfB, idfs)
 
 pd.DataFrame([tfidfA, tfidfB])
-
-
-
- 
